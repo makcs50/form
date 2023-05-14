@@ -1,0 +1,136 @@
+:root{
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.7em);
+}
+
+body{
+    max-width: 1440px;
+    max-height: 1024px;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+header{
+    padding: 32px 0px 64px 20px;
+}
+
+header > img{
+    width: auto;
+}
+main{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 480px;
+    max-height: 461px;
+}
+.text-voity-2{
+    margin-bottom: 40px;
+}
+.card{
+    text-align: center;
+    margin-bottom: 152px;
+}
+input{
+    width: 100%;
+    color: #919EAB;
+    height: 58px;
+    margin-bottom: 24px;
+    padding-left: 14px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #919EAB;
+}
+button{
+    background-color: #3258FB;
+    color: white;
+    width: 100%;
+    height: 48px;
+    box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+    border-radius: 8px;
+    border: 0px;
+    margin-bottom: 24px;
+
+}
+button > div{
+    font-size: 15px;
+    font-family: "Roboto"
+}
+.politic{
+    color: #919EAB;
+    margin-bottom: 24px;
+}
+a{
+    text-decoration: none;
+    color: #3258FB;
+}
+
+
+.rod .rod > .last-text{
+    display: flex;
+    text-align: center;
+}
+.left{
+    display: none;
+}
+
+
+
+
+@media  screen and (min-width: 800px){
+    .rod{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    header{
+        display: none;
+    }
+    .left{
+        display: block;
+        width: 364px;
+        height: 1000px;
+        margin-right: 320px;
+        margin-left: 20px;
+    }
+    .desktop{
+        display: flex;
+    }
+    .rod-top{
+        display: flex;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-bottom: 280px;
+    }
+    .text-logo{
+        margin-top: 5px;
+        margin-left: 10px;
+
+    }
+    .text-voity-2{
+        font-size: 24px;
+    }
+    .center{
+        width: 70%;
+        height: 460px;
+        margin-top: 240px;
+
+    }
+    h1{
+        font-size: 32px;
+    }
+    .politic{
+        font-size: 16px;
+    }
+    .name-surname{
+        display: flex;
+    }
+    .pal{
+        margin-right: 16px;
+    }
+    
+
+
+
+
+}
